@@ -28,31 +28,25 @@ Data containing 14640 rows and 20 columns has been obtained from data.world whic
 
 ### 1.2 Exploratory Data Analysis
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/3f9e202c-db72-4729-a466-ece8f81c1d0e)
-)
+![negatives](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/09bccbef-b915-45bb-8f39-252421deda11)
+
 There were far more negative sentiments in our dataset than positive and negative.
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/d77e7865-f396-4f38-8af7-b5188c05cfa6)
-)
+![number of tweets](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/a732e5b1-ce59-47f5-a940-e2ac3f50448d)
+
 Looking at the number of tweets by airline, United had the most meaning they were talked about the most on twitter.
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/994d7165-72a8-42da-9c15-db9204a1f5a9)
-)
+![sentiments by airline](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/f57a6226-0516-4130-bf23-966148d3f134)
+
 United Airline comes first based on the number of the negative, neutral and positive sentiments followed by US Airways then American Airlines. Virgin America comes last
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/b1d66d6d-f5f4-4485-bcd4-ab8b657c3eab)
-)
+![count reasons](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/07c09dd7-ecc2-47b7-af46-38bb0e42445c)
+
 Upon closer observation of the number of negative reasons of the airlines except for Delta, it looks like customer service issues contributed far more to negative sentiment.
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/fef3ef30-6038-4623-b817-474f155141c1)
-)
-The meaningful words that can be spotted in the positive sentiments’ word cloud directly include “thank”, “best”, “great” and “awesome”, "good".
+![negative percent](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/af2bdce2-d016-483b-a8d7-51ce74ebb8c5)
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/34d0b50f-a521-4a08-ac13-aadb99876bf1)
-)
-The meaningful words that can be spotted in the negative sentiments’ word cloud directly are “delay”, "customer service" , “cancelLed flight” and"Late Flight" etc.
-
-Overall, it seems that both word clouds display a lot of non-meaningful words at the same time as well like “PHL”, “help”, “time”, “today”, “will”, "LAX" etc.
+31.7% of tweets indicate poor customer service provided by various airlines. 18.1% indicate a bad experience with late flights and 13.0% of them indicate a dislike the services provided by the airlines without providing any solid reason. Issues concerning damaged luggage are the least.
 
 # Modelling
 We will proceed to creating some models .We proceeded with the Neural Network and XGBClassifier models after the vectorization steps, we aimed to improve the accuracy of sentiment classification. The vectorization techniques helped capture the relevant information and patterns within the tweets, enabling the models to learn from these representations and make more informed predictions.
