@@ -2,7 +2,6 @@
 
 ![planes](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/6e58fa33-f4a4-4a2b-89e7-dc0a37ebfc35)
 
-![My image]()
 # Business Understanding
 
 In the highly competitive airline industry, gaining a competitive advantage and ensuring customer satisfaction are critical for success. To achieve this, understanding customer sentiment and preferences is crucial. By leveraging sentiment analysis on Twitter data, specifically tweets related to airlines, airlines can gain valuable insights into customer feedback and opinions. This understanding allows them to shape strategies, enhance customer satisfaction, and maintain a positive reputation.
