@@ -1,7 +1,7 @@
 # Airline Twitter Sentiment Project
 
 
-![image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/46074536-a4f8-4c0a-8631-c237e0237a39)
+![My image](![image](https://github.com/Igecha-Samuel/Airline-Twitter-Sentiment-Analysis/assets/54464999/46074536-a4f8-4c0a-8631-c237e0237a39)
 )
 # Business Understanding
 
